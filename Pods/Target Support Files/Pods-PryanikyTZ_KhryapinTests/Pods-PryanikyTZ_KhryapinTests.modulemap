@@ -1,0 +1,6 @@
+framework module Pods_PryanikyTZ_KhryapinTests {
+  umbrella header "Pods-PryanikyTZ_KhryapinTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

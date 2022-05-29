@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests : NSObject
+@end
+@implementation PodsDummy_Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests
+@end
