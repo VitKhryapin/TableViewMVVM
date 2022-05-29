@@ -35,6 +35,10 @@
 		FB6A1E1A284217E200EE6227 /* PictureCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E19284217E200EE6227 /* PictureCellViewModel.swift */; };
 		FB6A1E1D284217F500EE6227 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E1B284217F500EE6227 /* PictureTableViewCell.swift */; };
 		FB6A1E1E284217F500EE6227 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1E1C284217F500EE6227 /* PictureTableViewCell.xib */; };
+		FBF7309B28437D98007016F3 /* Preview1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF7309A28437D98007016F3 /* Preview1.png */; };
+		FBF7309D28437DA1007016F3 /* Preview2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF7309C28437DA1007016F3 /* Preview2.png */; };
+		FBF730A028437DAD007016F3 /* Preview3.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF7309E28437DAD007016F3 /* Preview3.png */; };
+		FBF730A128437DAD007016F3 /* preview4.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF7309F28437DAD007016F3 /* preview4.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +95,10 @@
 		FB6A1E19284217E200EE6227 /* PictureCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCellViewModel.swift; sourceTree = "<group>"; };
 		FB6A1E1B284217F500EE6227 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
 		FB6A1E1C284217F500EE6227 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
+		FBF7309A28437D98007016F3 /* Preview1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview1.png; sourceTree = "<group>"; };
+		FBF7309C28437DA1007016F3 /* Preview2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview2.png; sourceTree = "<group>"; };
+		FBF7309E28437DAD007016F3 /* Preview3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview3.png; sourceTree = "<group>"; };
+		FBF7309F28437DAD007016F3 /* preview4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview4.png; sourceTree = "<group>"; };
 		FC264300DB77D241F7882DD7 /* Pods-PryanikyTZ_KhryapinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_KhryapinTests.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_KhryapinTests/Pods-PryanikyTZ_KhryapinTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FECF4BC03BA1D8BBB880BC2D /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FB6A1DA8283F90C200EE6227 /* PryanikyTZ_Khryapin */,
+				FBF7309928437D85007016F3 /* Preview */,
 				FB6A1DA7283F90C200EE6227 /* Products */,
 				390B83E7904B2F3486E18FB1 /* Pods */,
 				0170D3C861831418DAAF4ACF /* Frameworks */,
@@ -314,6 +323,17 @@
 			path = ../SecondModule;
 			sourceTree = "<group>";
 		};
+		FBF7309928437D85007016F3 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				FBF7309A28437D98007016F3 /* Preview1.png */,
+				FBF7309C28437DA1007016F3 /* Preview2.png */,
+				FBF7309E28437DAD007016F3 /* Preview3.png */,
+				FBF7309F28437DAD007016F3 /* preview4.png */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -422,12 +442,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF7309D28437DA1007016F3 /* Preview2.png in Resources */,
 				FB6A1E1E284217F500EE6227 /* PictureTableViewCell.xib in Resources */,
 				FB6A1DB6283F90C300EE6227 /* LaunchScreen.storyboard in Resources */,
 				FB6A1DB3283F90C300EE6227 /* Assets.xcassets in Resources */,
 				FB6A1E18284141CA00EE6227 /* SelectorCellTableViewCell.xib in Resources */,
+				FBF7309B28437D98007016F3 /* Preview1.png in Resources */,
+				FBF730A028437DAD007016F3 /* Preview3.png in Resources */,
 				FB6A1E1228411C2700EE6227 /* MainTextTableViewCell.xib in Resources */,
 				FB6A1DEE283FDDD800EE6227 /* TextTableViewCell.xib in Resources */,
+				FBF730A128437DAD007016F3 /* preview4.png in Resources */,
 				FB6A1DB1283F90C200EE6227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
