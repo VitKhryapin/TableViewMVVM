@@ -3,18 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4403F3F70AAFB65B06D81449 /* Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 126B2CB9C948ACA67847CA14 /* Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework */; };
+		5790B0CC4DAF0441A8592314 /* Pods_PryanikyTZ_Khryapin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B199513CBAC4633A813A6292 /* Pods_PryanikyTZ_Khryapin.framework */; };
+		DF1D0529956397C096852ADD /* Pods_PryanikyTZ_KhryapinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CCAE2B48BA73DEC08A8402 /* Pods_PryanikyTZ_KhryapinTests.framework */; };
 		FB6A1DAA283F90C200EE6227 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DA9283F90C200EE6227 /* AppDelegate.swift */; };
 		FB6A1DAC283F90C200EE6227 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DAB283F90C200EE6227 /* SceneDelegate.swift */; };
-		FB6A1DAE283F90C200EE6227 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DAD283F90C200EE6227 /* ViewController.swift */; };
 		FB6A1DB1283F90C200EE6227 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1DAF283F90C200EE6227 /* Main.storyboard */; };
 		FB6A1DB3283F90C300EE6227 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1DB2283F90C300EE6227 /* Assets.xcassets */; };
 		FB6A1DB6283F90C300EE6227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1DB4283F90C300EE6227 /* LaunchScreen.storyboard */; };
-		FB6A1DC1283F90C300EE6227 /* PryanikyTZ_KhryapinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DC0283F90C300EE6227 /* PryanikyTZ_KhryapinTests.swift */; };
-		FB6A1DCC283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DCB283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.swift */; };
+		FB6A1DDE283F919400EE6227 /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DDD283F919400EE6227 /* ViewData.swift */; };
+		FB6A1DE0283F91B700EE6227 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DDF283F91B700EE6227 /* MainViewController.swift */; };
+		FB6A1DE2283F92C300EE6227 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DE1283F92C300EE6227 /* MainViewModel.swift */; };
+		FB6A1DE4283FCBF400EE6227 /* AdaptedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DE3283FCBF400EE6227 /* AdaptedTableView.swift */; };
+		FB6A1DE8283FDD1200EE6227 /* TextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DE7283FDD1200EE6227 /* TextCellViewModel.swift */; };
+		FB6A1DED283FDDD800EE6227 /* TextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DEB283FDDD800EE6227 /* TextTableViewCell.swift */; };
+		FB6A1DEE283FDDD800EE6227 /* TextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1DEC283FDDD800EE6227 /* TextTableViewCell.xib */; };
+		FB6A1DF1283FE1E800EE6227 /* AdaptedSectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DF0283FE1E800EE6227 /* AdaptedSectionViewModel.swift */; };
+		FB6A1DF3283FE26E00EE6227 /* MainCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DF2283FE26E00EE6227 /* MainCellFactory.swift */; };
+		FB6A1DF5283FEF1200EE6227 /* Protocols + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DF4283FEF1200EE6227 /* Protocols + Extension.swift */; };
+		FB6A1DF8283FFB7400EE6227 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1DF7283FFB7400EE6227 /* NetworkService.swift */; };
+		FB6A1E0E28411BB000EE6227 /* MainTextCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E0D28411BB000EE6227 /* MainTextCellViewModel.swift */; };
+		FB6A1E1128411C2700EE6227 /* MainTextTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E0F28411C2700EE6227 /* MainTextTableViewCell.swift */; };
+		FB6A1E1228411C2700EE6227 /* MainTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1E1028411C2700EE6227 /* MainTextTableViewCell.xib */; };
+		FB6A1E142841417900EE6227 /* SelectorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E132841417900EE6227 /* SelectorCellViewModel.swift */; };
+		FB6A1E17284141CA00EE6227 /* SelectorCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E15284141CA00EE6227 /* SelectorCellTableViewCell.swift */; };
+		FB6A1E18284141CA00EE6227 /* SelectorCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1E16284141CA00EE6227 /* SelectorCellTableViewCell.xib */; };
+		FB6A1E1A284217E200EE6227 /* PictureCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E19284217E200EE6227 /* PictureCellViewModel.swift */; };
+		FB6A1E1D284217F500EE6227 /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A1E1B284217F500EE6227 /* PictureTableViewCell.swift */; };
+		FB6A1E1E284217F500EE6227 /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB6A1E1C284217F500EE6227 /* PictureTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +55,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119053F673559D4D796FB6D2 /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		126B2CB9C948ACA67847CA14 /* Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33CCAE2B48BA73DEC08A8402 /* Pods_PryanikyTZ_KhryapinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikyTZ_KhryapinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		853D40FFDE9262445C5BD457 /* Pods-PryanikyTZ_Khryapin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_Khryapin.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_Khryapin/Pods-PryanikyTZ_Khryapin.debug.xcconfig"; sourceTree = "<group>"; };
+		B199513CBAC4633A813A6292 /* Pods_PryanikyTZ_Khryapin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PryanikyTZ_Khryapin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9B94209BDC03597F5944A28 /* Pods-PryanikyTZ_Khryapin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_Khryapin.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_Khryapin/Pods-PryanikyTZ_Khryapin.release.xcconfig"; sourceTree = "<group>"; };
+		EFCB44C575E158663C896CA6 /* Pods-PryanikyTZ_KhryapinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_KhryapinTests.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_KhryapinTests/Pods-PryanikyTZ_KhryapinTests.release.xcconfig"; sourceTree = "<group>"; };
 		FB6A1DA6283F90C200EE6227 /* PryanikyTZ_Khryapin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PryanikyTZ_Khryapin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A1DA9283F90C200EE6227 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6A1DAB283F90C200EE6227 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB6A1DAD283F90C200EE6227 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FB6A1DB0283F90C200EE6227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB6A1DB2283F90C300EE6227 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6A1DB5283F90C300EE6227 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB6A1DB7283F90C300EE6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6A1DBC283F90C300EE6227 /* PryanikyTZ_KhryapinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryanikyTZ_KhryapinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6A1DC0283F90C300EE6227 /* PryanikyTZ_KhryapinTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyTZ_KhryapinTests.swift; sourceTree = "<group>"; };
-		FB6A1DC2283F90C300EE6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB6A1DC7283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PryanikyTZ_KhryapinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FB6A1DCB283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PryanikyTZ_KhryapinUITests.swift; sourceTree = "<group>"; };
-		FB6A1DCD283F90C300EE6227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6A1DDD283F919400EE6227 /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		FB6A1DDF283F91B700EE6227 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FB6A1DE1283F92C300EE6227 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		FB6A1DE3283FCBF400EE6227 /* AdaptedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedTableView.swift; sourceTree = "<group>"; };
+		FB6A1DE7283FDD1200EE6227 /* TextCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellViewModel.swift; sourceTree = "<group>"; };
+		FB6A1DEB283FDDD800EE6227 /* TextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewCell.swift; sourceTree = "<group>"; };
+		FB6A1DEC283FDDD800EE6227 /* TextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextTableViewCell.xib; sourceTree = "<group>"; };
+		FB6A1DF0283FE1E800EE6227 /* AdaptedSectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptedSectionViewModel.swift; sourceTree = "<group>"; };
+		FB6A1DF2283FE26E00EE6227 /* MainCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellFactory.swift; sourceTree = "<group>"; };
+		FB6A1DF4283FEF1200EE6227 /* Protocols + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Protocols + Extension.swift"; sourceTree = "<group>"; };
+		FB6A1DF7283FFB7400EE6227 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FB6A1E0D28411BB000EE6227 /* MainTextCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextCellViewModel.swift; sourceTree = "<group>"; };
+		FB6A1E0F28411C2700EE6227 /* MainTextTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTextTableViewCell.swift; sourceTree = "<group>"; };
+		FB6A1E1028411C2700EE6227 /* MainTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTextTableViewCell.xib; sourceTree = "<group>"; };
+		FB6A1E132841417900EE6227 /* SelectorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCellViewModel.swift; sourceTree = "<group>"; };
+		FB6A1E15284141CA00EE6227 /* SelectorCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectorCellTableViewCell.swift; sourceTree = "<group>"; };
+		FB6A1E16284141CA00EE6227 /* SelectorCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectorCellTableViewCell.xib; sourceTree = "<group>"; };
+		FB6A1E19284217E200EE6227 /* PictureCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCellViewModel.swift; sourceTree = "<group>"; };
+		FB6A1E1B284217F500EE6227 /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		FB6A1E1C284217F500EE6227 /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
+		FC264300DB77D241F7882DD7 /* Pods-PryanikyTZ_KhryapinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_KhryapinTests.debug.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_KhryapinTests/Pods-PryanikyTZ_KhryapinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FECF4BC03BA1D8BBB880BC2D /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig"; path = "Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5790B0CC4DAF0441A8592314 /* Pods_PryanikyTZ_Khryapin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF1D0529956397C096852ADD /* Pods_PryanikyTZ_KhryapinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +116,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4403F3F70AAFB65B06D81449 /* Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0170D3C861831418DAAF4ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B199513CBAC4633A813A6292 /* Pods_PryanikyTZ_Khryapin.framework */,
+				126B2CB9C948ACA67847CA14 /* Pods_PryanikyTZ_Khryapin_PryanikyTZ_KhryapinUITests.framework */,
+				33CCAE2B48BA73DEC08A8402 /* Pods_PryanikyTZ_KhryapinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		390B83E7904B2F3486E18FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				853D40FFDE9262445C5BD457 /* Pods-PryanikyTZ_Khryapin.debug.xcconfig */,
+				D9B94209BDC03597F5944A28 /* Pods-PryanikyTZ_Khryapin.release.xcconfig */,
+				119053F673559D4D796FB6D2 /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.debug.xcconfig */,
+				FECF4BC03BA1D8BBB880BC2D /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig */,
+				FC264300DB77D241F7882DD7 /* Pods-PryanikyTZ_KhryapinTests.debug.xcconfig */,
+				EFCB44C575E158663C896CA6 /* Pods-PryanikyTZ_KhryapinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FB6A1D9D283F90C200EE6227 = {
 			isa = PBXGroup;
 			children = (
 				FB6A1DA8283F90C200EE6227 /* PryanikyTZ_Khryapin */,
-				FB6A1DBF283F90C300EE6227 /* PryanikyTZ_KhryapinTests */,
-				FB6A1DCA283F90C300EE6227 /* PryanikyTZ_KhryapinUITests */,
 				FB6A1DA7283F90C200EE6227 /* Products */,
+				390B83E7904B2F3486E18FB1 /* Pods */,
+				0170D3C861831418DAAF4ACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +169,14 @@
 		FB6A1DA8283F90C200EE6227 /* PryanikyTZ_Khryapin */ = {
 			isa = PBXGroup;
 			children = (
+				FB6A1DAF283F90C200EE6227 /* Main.storyboard */,
+				FB6A1DF2283FE26E00EE6227 /* MainCellFactory.swift */,
+				FB6A1DF92840DFA000EE6227 /* Protocols + Extension */,
+				FB6A1DFA2840E1BD00EE6227 /* Generic */,
+				FB6A1DD9283F90DE00EE6227 /* MainModule */,
+				FB6A1DF6283FFB6300EE6227 /* NetworkService */,
 				FB6A1DA9283F90C200EE6227 /* AppDelegate.swift */,
 				FB6A1DAB283F90C200EE6227 /* SceneDelegate.swift */,
-				FB6A1DAD283F90C200EE6227 /* ViewController.swift */,
-				FB6A1DAF283F90C200EE6227 /* Main.storyboard */,
 				FB6A1DB2283F90C300EE6227 /* Assets.xcassets */,
 				FB6A1DB4283F90C300EE6227 /* LaunchScreen.storyboard */,
 				FB6A1DB7283F90C300EE6227 /* Info.plist */,
@@ -110,22 +184,134 @@
 			path = PryanikyTZ_Khryapin;
 			sourceTree = "<group>";
 		};
-		FB6A1DBF283F90C300EE6227 /* PryanikyTZ_KhryapinTests */ = {
+		FB6A1DD9283F90DE00EE6227 /* MainModule */ = {
 			isa = PBXGroup;
 			children = (
-				FB6A1DC0283F90C300EE6227 /* PryanikyTZ_KhryapinTests.swift */,
-				FB6A1DC2283F90C300EE6227 /* Info.plist */,
+				FB6A1DEF283FE1D100EE6227 /* Sections */,
+				FB6A1DE5283FDCE400EE6227 /* Cell */,
+				FB6A1DDB283F914A00EE6227 /* Model */,
+				FB6A1DDA283F912F00EE6227 /* View */,
+				FB6A1DDC283F915200EE6227 /* ViewModel */,
 			);
-			path = PryanikyTZ_KhryapinTests;
+			path = MainModule;
 			sourceTree = "<group>";
 		};
-		FB6A1DCA283F90C300EE6227 /* PryanikyTZ_KhryapinUITests */ = {
+		FB6A1DDA283F912F00EE6227 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				FB6A1DCB283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.swift */,
-				FB6A1DCD283F90C300EE6227 /* Info.plist */,
+				FB6A1DDF283F91B700EE6227 /* MainViewController.swift */,
 			);
-			path = PryanikyTZ_KhryapinUITests;
+			path = View;
+			sourceTree = "<group>";
+		};
+		FB6A1DDB283F914A00EE6227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DDD283F919400EE6227 /* ViewData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FB6A1DDC283F915200EE6227 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DE1283F92C300EE6227 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FB6A1DE5283FDCE400EE6227 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1E022840E3EF00EE6227 /* MainTextCell */,
+				FB6A1DE6283FDCEB00EE6227 /* TextCell */,
+				FB6A1E052840E51600EE6227 /* SelectorCell */,
+				FB6A1E042840E40D00EE6227 /* PictureCell */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		FB6A1DE6283FDCEB00EE6227 /* TextCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DE7283FDD1200EE6227 /* TextCellViewModel.swift */,
+				FB6A1DEB283FDDD800EE6227 /* TextTableViewCell.swift */,
+				FB6A1DEC283FDDD800EE6227 /* TextTableViewCell.xib */,
+			);
+			path = TextCell;
+			sourceTree = "<group>";
+		};
+		FB6A1DEF283FE1D100EE6227 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DF0283FE1E800EE6227 /* AdaptedSectionViewModel.swift */,
+			);
+			name = Sections;
+			sourceTree = "<group>";
+		};
+		FB6A1DF6283FFB6300EE6227 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DF7283FFB7400EE6227 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		FB6A1DF92840DFA000EE6227 /* Protocols + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DF4283FEF1200EE6227 /* Protocols + Extension.swift */,
+			);
+			path = "Protocols + Extension";
+			sourceTree = "<group>";
+		};
+		FB6A1DFA2840E1BD00EE6227 /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DFB2840E1C300EE6227 /* AdaptedTableView */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		FB6A1DFB2840E1C300EE6227 /* AdaptedTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1DE3283FCBF400EE6227 /* AdaptedTableView.swift */,
+			);
+			name = AdaptedTableView;
+			sourceTree = "<group>";
+		};
+		FB6A1E022840E3EF00EE6227 /* MainTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1E0D28411BB000EE6227 /* MainTextCellViewModel.swift */,
+				FB6A1E0F28411C2700EE6227 /* MainTextTableViewCell.swift */,
+				FB6A1E1028411C2700EE6227 /* MainTextTableViewCell.xib */,
+			);
+			name = MainTextCell;
+			path = ../SecondModule;
+			sourceTree = "<group>";
+		};
+		FB6A1E042840E40D00EE6227 /* PictureCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1E19284217E200EE6227 /* PictureCellViewModel.swift */,
+				FB6A1E1B284217F500EE6227 /* PictureTableViewCell.swift */,
+				FB6A1E1C284217F500EE6227 /* PictureTableViewCell.xib */,
+			);
+			name = PictureCell;
+			path = ../SecondModule;
+			sourceTree = "<group>";
+		};
+		FB6A1E052840E51600EE6227 /* SelectorCell */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A1E132841417900EE6227 /* SelectorCellViewModel.swift */,
+				FB6A1E15284141CA00EE6227 /* SelectorCellTableViewCell.swift */,
+				FB6A1E16284141CA00EE6227 /* SelectorCellTableViewCell.xib */,
+			);
+			name = SelectorCell;
+			path = ../SecondModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,9 +321,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6A1DD0283F90C300EE6227 /* Build configuration list for PBXNativeTarget "PryanikyTZ_Khryapin" */;
 			buildPhases = (
+				9BB040E82DA027A058F74FB5 /* [CP] Check Pods Manifest.lock */,
 				FB6A1DA2283F90C200EE6227 /* Sources */,
 				FB6A1DA3283F90C200EE6227 /* Frameworks */,
 				FB6A1DA4283F90C200EE6227 /* Resources */,
+				3E4BC94863E33A14DFDB50BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +340,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6A1DD3283F90C300EE6227 /* Build configuration list for PBXNativeTarget "PryanikyTZ_KhryapinTests" */;
 			buildPhases = (
+				C68F0F9A6C383680926B12CA /* [CP] Check Pods Manifest.lock */,
 				FB6A1DB8283F90C300EE6227 /* Sources */,
 				FB6A1DB9283F90C300EE6227 /* Frameworks */,
 				FB6A1DBA283F90C300EE6227 /* Resources */,
@@ -170,9 +359,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6A1DD6283F90C300EE6227 /* Build configuration list for PBXNativeTarget "PryanikyTZ_KhryapinUITests" */;
 			buildPhases = (
+				E4F12F7577F5022C57B6DCC2 /* [CP] Check Pods Manifest.lock */,
 				FB6A1DC3283F90C300EE6227 /* Sources */,
 				FB6A1DC4283F90C300EE6227 /* Frameworks */,
 				FB6A1DC5283F90C300EE6227 /* Resources */,
+				C2898361ADF310CC486CBAC8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,8 +422,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6A1E1E284217F500EE6227 /* PictureTableViewCell.xib in Resources */,
 				FB6A1DB6283F90C300EE6227 /* LaunchScreen.storyboard in Resources */,
 				FB6A1DB3283F90C300EE6227 /* Assets.xcassets in Resources */,
+				FB6A1E18284141CA00EE6227 /* SelectorCellTableViewCell.xib in Resources */,
+				FB6A1E1228411C2700EE6227 /* MainTextTableViewCell.xib in Resources */,
+				FB6A1DEE283FDDD800EE6227 /* TextTableViewCell.xib in Resources */,
 				FB6A1DB1283F90C200EE6227 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +448,132 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E4BC94863E33A14DFDB50BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin/Pods-PryanikyTZ_Khryapin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin/Pods-PryanikyTZ_Khryapin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin/Pods-PryanikyTZ_Khryapin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BB040E82DA027A058F74FB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikyTZ_Khryapin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2898361ADF310CC486CBAC8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68F0F9A6C383680926B12CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikyTZ_KhryapinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4F12F7577F5022C57B6DCC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB6A1DA2283F90C200EE6227 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6A1DAE283F90C200EE6227 /* ViewController.swift in Sources */,
+				FB6A1DE2283F92C300EE6227 /* MainViewModel.swift in Sources */,
+				FB6A1E1128411C2700EE6227 /* MainTextTableViewCell.swift in Sources */,
+				FB6A1DE8283FDD1200EE6227 /* TextCellViewModel.swift in Sources */,
+				FB6A1DED283FDDD800EE6227 /* TextTableViewCell.swift in Sources */,
 				FB6A1DAA283F90C200EE6227 /* AppDelegate.swift in Sources */,
+				FB6A1DF5283FEF1200EE6227 /* Protocols + Extension.swift in Sources */,
+				FB6A1DDE283F919400EE6227 /* ViewData.swift in Sources */,
+				FB6A1DF1283FE1E800EE6227 /* AdaptedSectionViewModel.swift in Sources */,
 				FB6A1DAC283F90C200EE6227 /* SceneDelegate.swift in Sources */,
+				FB6A1DF3283FE26E00EE6227 /* MainCellFactory.swift in Sources */,
+				FB6A1E142841417900EE6227 /* SelectorCellViewModel.swift in Sources */,
+				FB6A1DE0283F91B700EE6227 /* MainViewController.swift in Sources */,
+				FB6A1DF8283FFB7400EE6227 /* NetworkService.swift in Sources */,
+				FB6A1E0E28411BB000EE6227 /* MainTextCellViewModel.swift in Sources */,
+				FB6A1E1D284217F500EE6227 /* PictureTableViewCell.swift in Sources */,
+				FB6A1E1A284217E200EE6227 /* PictureCellViewModel.swift in Sources */,
+				FB6A1E17284141CA00EE6227 /* SelectorCellTableViewCell.swift in Sources */,
+				FB6A1DE4283FCBF400EE6227 /* AdaptedTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +581,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6A1DC1283F90C300EE6227 /* PryanikyTZ_KhryapinTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +588,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB6A1DCC283F90C300EE6227 /* PryanikyTZ_KhryapinUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +744,7 @@
 		};
 		FB6A1DD1283F90C300EE6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 853D40FFDE9262445C5BD457 /* Pods-PryanikyTZ_Khryapin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +764,7 @@
 		};
 		FB6A1DD2283F90C300EE6227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B94209BDC03597F5944A28 /* Pods-PryanikyTZ_Khryapin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +784,7 @@
 		};
 		FB6A1DD4283F90C300EE6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC264300DB77D241F7882DD7 /* Pods-PryanikyTZ_KhryapinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +807,7 @@
 		};
 		FB6A1DD5283F90C300EE6227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCB44C575E158663C896CA6 /* Pods-PryanikyTZ_KhryapinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +830,7 @@
 		};
 		FB6A1DD7283F90C300EE6227 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119053F673559D4D796FB6D2 /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +851,7 @@
 		};
 		FB6A1DD8283F90C300EE6227 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FECF4BC03BA1D8BBB880BC2D /* Pods-PryanikyTZ_Khryapin-PryanikyTZ_KhryapinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
